@@ -1,0 +1,20 @@
+{
+    "name" : "gstjohn/eloquent-uuids",
+    "description" : "Easily allow Laravel Eloquent models to utilize UUIDs as their primary key.",
+    "authors" : [{
+            "name" : "Garrett St. John",
+            "email" : "garrett@garrettstjohn.com"
+        }
+    ],
+    "keywords" : ["uuid", "guid", "laravel", "eloquent"],
+    "homepage" : "https://github.com/gstjohn/eloquent-uuids",
+    "license" : "MIT",
+    "require" : {
+        "php" : ">=5.4"
+    },
+    "require-dev" : {
+    },
+    "autoload" : {
+        "psr-4": {"Gstjohn\\EloquentUuids\\": "src/"}
+    }
+}
